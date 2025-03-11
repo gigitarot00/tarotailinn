@@ -1,0 +1,54 @@
+body {
+    background-color: #ffd6e5;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #ff69b4;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 20px;
+    text-shadow: 2px 2px #ff1493;
+}
+
+.tarot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarot-card {
+    background: #fff0f5;
+    border: 2px solid #ff1493;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 3px 3px 10px rgba(255, 20, 147, 0.3);
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1493;
+}
+
+.detalles {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #d63384;
+}
+
+.precio {
+    font-weight: bold;
+    color: #ff1493;
+    font-size: 16px;
+}
