@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturas de Tarot 🌙🔮</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>💖 Lecturas de Tarot 💖</h1>
+    <div class="tarot-container">
+
+        <!-- Tirada Llamas Gemelas -->
+        <div class="tarot-card">
+            <h3>🔥 Llamas Gemelas 🔥</h3>
+            <button onclick="mostrarDetalles('detalles1')">🔮 Ver detalles</button>
+            <div id="detalles1" class="detalles">
+                <ul>
+                    <li>¿Cómo me ayuda a crecer?</li>
+                    <li>¿Qué busca de mí?</li>
+                    <li>¿Qué tengo que aprender?</li>
+                    <li>¿Qué aprende de mí?</li>
+                    <li>¿De quién se trata?</li>
+                    <li>¿Voy a conocerla en esta vida?</li>
+                    <li>¿Ya nos conocimos en otra vida?</li>
+                    <li>¿Qué piensa de mí?</li>
+                    <li>¿Qué nos une?</li>
+                </ul>
+                <p class="precio">💰 $5000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Lectura Vincular -->
+        <div class="tarot-card">
+            <h3>💞 Lectura Vincular 💞</h3>
+            <button onclick="mostrarDetalles('detalles2')">🔮 Ver detalles</button>
+            <div id="detalles2" class="detalles">
+                <ul>
+                    <li>Consultante</li>
+                    <li>Persona 2</li>
+                    <li>Comunicación (2 cartas)</li>
+                    <li>Sentimientos (2 cartas)</li>
+                    <li>Deseo sexual (2 cartas)</li>
+                    <li>Pasado (2 cartas)</li>
+                    <li>Presente (2 cartas)</li>
+                    <li>Futuro (2 cartas)</li>
+                </ul>
+                <p class="precio">💰 $5000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Intereses Románticos -->
+        <div class="tarot-card">
+            <h3>💕 Intereses Románticos 💕</h3>
+            <button onclick="mostrarDetalles('detalles3')">🔮 Ver detalles</button>
+            <div id="detalles3" class="detalles">
+                <ul>
+                    <li>Consultante</li>
+                    <li>Candidato 1</li>
+                    <li>Candidato 2</li>
+                    <li>Recursos</li>
+                    <li>Obstáculos</li>
+                    <li>Evolución</li>
+                </ul>
+                <p class="precio">💰 $5000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Relación Pasada -->
+        <div class="tarot-card">
+            <h3>💔 Relación Pasada 💔</h3>
+            <button onclick="mostrarDetalles('detalles4')">🔮 Ver detalles</button>
+            <div id="detalles4" class="detalles">
+                <ul>
+                    <li>¿Qué ha quedado?</li>
+                    <li>¿Cómo curar mis heridas?</li>
+                    <li>¿Qué aprendí de esta relación?</li>
+                    <li>¿Es momento de cerrar este capítulo?</li>
+                    <li>¿Cómo debo hacerlo?</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Futuro Amor -->
+        <div class="tarot-card">
+            <h3>💘 Futuro Amor 💘</h3>
+            <button onclick="mostrarDetalles('detalles5')">🔮 Ver detalles</button>
+            <div id="detalles5" class="detalles">
+                <ul>
+                    <li>¿Será atracción instantánea?</li>
+                    <li>¿Cómo será esa persona?</li>
+                    <li>Desafíos</li>
+                    <li>Elementos a favor</li>
+                    <li>¿Cuándo y cómo conoceré a esa persona?</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Me Manifiesta -->
+        <div class="tarot-card">
+            <h3>🌟 ¿Me Manifiesta? 🌟</h3>
+            <button onclick="mostrarDetalles('detalles6')">🔮 Ver detalles</button>
+            <div id="detalles6" class="detalles">
+                <ul>
+                    <li>¿Piensa en mí?</li>
+                    <li>¿Me extraña?</li>
+                    <li>¿Se está manifestando en mi vida?</li>
+                    <li>¿Cómo se siente respecto a nuestra conexión?</li>
+                    <li>¿Quiere acercarse a mí?</li>
+                    <li>Consejo del tarot</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Tirada del Ex -->
+        <div class="tarot-card">
+            <h3>🖤 Lectura del Ex 🖤</h3>
+            <button onclick="mostrarDetalles('detalles7')">🔮 Ver detalles</button>
+            <div id="detalles7" class="detalles">
+                <ul>
+                    <li>¿Cómo está?</li>
+                    <li>¿Va a volver?</li>
+                    <li>¿Qué piensa de mí?</li>
+                    <li>¿Qué siente por mí?</li>
+                    <li>¿Me conviene?</li>
+                    <li>Consejo</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Preguntas Sí/No -->
+        <div class="tarot-card">
+            <h3>✅ Preguntas Sí/No ✅</h3>
+            <button onclick="mostrarDetalles('detalles8')">🔮 Ver detalles</button>
+            <div id="detalles8" class="detalles">
+                <ul>
+                    <li>1 Pregunta: 💰 $500</li>
+                    <li>3 Preguntas: 💰 $1000</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturas de Tarot 🌙🔮</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>💖 Lecturas de Tarot 💖</h1>
+    <div class="tarot-container">
+
+        <!-- Tirada Llamas Gemelas -->
+        <div class="tarot-card">
+            <h3>🔥 Llamas Gemelas 🔥</h3>
+            <button onclick="mostrarDetalles('detalles1')">🔮 Ver detalles</button>
+            <div id="detalles1" class="detalles">
+                <ul>
+                    <li>¿Cómo me ayuda a crecer?</li>
+                    <li>¿Qué busca de mí?</li>
+                    <li>¿Qué tengo que aprender?</li>
+                    <li>¿Qué aprende de mí?</li>
+                    <li>¿De quién se trata?</li>
+                    <li>¿Voy a conocerla en esta vida?</li>
+                    <li>¿Ya nos conocimos en otra vida?</li>
+                    <li>¿Qué piensa de mí?</li>
+                    <li>¿Qué nos une?</li>
+                </ul>
+                <p class="precio">💰 $5000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Lectura Vincular -->
+        <div class="tarot-card">
+            <h3>💞 Lectura Vincular 💞</h3>
+            <button onclick="mostrarDetalles('detalles2')">🔮 Ver detalles</button>
+            <div id="detalles2" class="detalles">
+                <ul>
+                    <li>Consultante</li>
+                    <li>Persona 2</li>
+                    <li>Comunicación (2 cartas)</li>
+                    <li>Sentimientos (2 cartas)</li>
+                    <li>Deseo sexual (2 cartas)</li>
+                    <li>Pasado (2 cartas)</li>
+                    <li>Presente (2 cartas)</li>
+                    <li>Futuro (2 cartas)</li>
+                </ul>
+                <p class="precio">💰 $5000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Intereses Románticos -->
+        <div class="tarot-card">
+            <h3>💕 Intereses Románticos 💕</h3>
+            <button onclick="mostrarDetalles('detalles3')">🔮 Ver detalles</button>
+            <div id="detalles3" class="detalles">
+                <ul>
+                    <li>Consultante</li>
+                    <li>Candidato 1</li>
+                    <li>Candidato 2</li>
+                    <li>Recursos</li>
+                    <li>Obstáculos</li>
+                    <li>Evolución</li>
+                </ul>
+                <p class="precio">💰 $5000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Relación Pasada -->
+        <div class="tarot-card">
+            <h3>💔 Relación Pasada 💔</h3>
+            <button onclick="mostrarDetalles('detalles4')">🔮 Ver detalles</button>
+            <div id="detalles4" class="detalles">
+                <ul>
+                    <li>¿Qué ha quedado?</li>
+                    <li>¿Cómo curar mis heridas?</li>
+                    <li>¿Qué aprendí de esta relación?</li>
+                    <li>¿Es momento de cerrar este capítulo?</li>
+                    <li>¿Cómo debo hacerlo?</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Futuro Amor -->
+        <div class="tarot-card">
+            <h3>💘 Futuro Amor 💘</h3>
+            <button onclick="mostrarDetalles('detalles5')">🔮 Ver detalles</button>
+            <div id="detalles5" class="detalles">
+                <ul>
+                    <li>¿Será atracción instantánea?</li>
+                    <li>¿Cómo será esa persona?</li>
+                    <li>Desafíos</li>
+                    <li>Elementos a favor</li>
+                    <li>¿Cuándo y cómo conoceré a esa persona?</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Tirada Me Manifiesta -->
+        <div class="tarot-card">
+            <h3>🌟 ¿Me Manifiesta? 🌟</h3>
+            <button onclick="mostrarDetalles('detalles6')">🔮 Ver detalles</button>
+            <div id="detalles6" class="detalles">
+                <ul>
+                    <li>¿Piensa en mí?</li>
+                    <li>¿Me extraña?</li>
+                    <li>¿Se está manifestando en mi vida?</li>
+                    <li>¿Cómo se siente respecto a nuestra conexión?</li>
+                    <li>¿Quiere acercarse a mí?</li>
+                    <li>Consejo del tarot</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Tirada del Ex -->
+        <div class="tarot-card">
+            <h3>🖤 Lectura del Ex 🖤</h3>
+            <button onclick="mostrarDetalles('detalles7')">🔮 Ver detalles</button>
+            <div id="detalles7" class="detalles">
+                <ul>
+                    <li>¿Cómo está?</li>
+                    <li>¿Va a volver?</li>
+                    <li>¿Qué piensa de mí?</li>
+                    <li>¿Qué siente por mí?</li>
+                    <li>¿Me conviene?</li>
+                    <li>Consejo</li>
+                </ul>
+                <p class="precio">💰 $3000</p>
+            </div>
+        </div>
+
+        <!-- Preguntas Sí/No -->
+        <div class="tarot-card">
+            <h3>✅ Preguntas Sí/No ✅</h3>
+            <button onclick="mostrarDetalles('detalles8')">🔮 Ver detalles</button>
+            <div id="detalles8" class="detalles">
+                <ul>
+                    <li>1 Pregunta: 💰 $500</li>
+                    <li>3 Preguntas: 💰 $1000</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
