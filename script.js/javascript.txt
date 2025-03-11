@@ -1,0 +1,8 @@
+function mostrarDetalles(id) {
+    var detalles = document.getElementById(id);
+    if (detalles.style.display === "block") {
+        detalles.style.display = "none";
+    } else {
+        detalles.style.display = "block";
+    }
+}
